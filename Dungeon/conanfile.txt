@@ -1,0 +1,6 @@
+[requires]
+sfml/2.6.0  # Latest stable SFML
+
+[generators]
+CMakeDeps    # Generates CMake configs
+CMakeToolchain  # Helps CMake find dependencies

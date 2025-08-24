@@ -1,0 +1,64 @@
+# Cartelle generiche di build
+/build*/
+/out/
+/x64/
+/x86/
+/bin/
+/lib/
+
+# File generati da CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!cmake/*.cmake  # Mantieni i nostri file di configurazione
+
+# Conan
+/conanbuildinfo.cmake
+/conaninfo.txt
+/conan_imports/
+/.conan/
+
+# File generati da IDE
+.vscode/
+.idea/
+*.user
+*.suo
+*.sln
+*.vcxproj*
+*.vcproj
+*.xcodeproj/
+
+# Eseguibili e librerie
+*.exe
+*.out
+*.app
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+
+# File di sistema
+.DS_Store
+Thumbs.db
+
+# File temporanei
+*~
+*.swp
+*.bak
+*.tmp
+
+# Log e report
+*.log
+*.tlog
+*.lastbuildstate
+
+# Cartelle di dipendenze (se presenti)
+/dependencies/
+/third_party/
+
+bozza.txt
+
+Pong

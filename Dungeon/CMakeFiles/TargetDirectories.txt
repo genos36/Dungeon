@@ -1,0 +1,3 @@
+/home/esercitazioni/prove/Dungeon/CMakeFiles/Dungeon.dir
+/home/esercitazioni/prove/Dungeon/CMakeFiles/edit_cache.dir
+/home/esercitazioni/prove/Dungeon/CMakeFiles/rebuild_cache.dir
