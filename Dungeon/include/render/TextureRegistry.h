@@ -7,6 +7,10 @@
 #include <vector>
 #include <exception>
 
+
+
+//if a new element i added to this enum,
+//is also necessary to update the section marked with ON_UPDATE
 enum class TextureType{
     // Tiles
     TILE_GRASS=0,
@@ -21,6 +25,7 @@ enum class TextureType{
 
 class TextureRegistry{
 private:
+//ON_UPDATE
     static inline std::vector<std::string> registry = {
         // Tiles
         {"./assets/sprites/terrain/grass.png"},
@@ -29,8 +34,9 @@ private:
         {"./assets/sprites/terrain/dirt.png"},
         {"./assets/sprites/terrain/tree.png"}
     };
-    
-    // Compile-time size validation
+
+//ON_UPDATE
+    // Compile-time size validation,
     static_assert(static_cast<size_t>(TextureType::COUNT) ==5,
                  "TextureType enum changed! Update TextureRegistry initialization.");
 public:

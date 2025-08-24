@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/esercitazioni/prove/Dungeon/src/entities/Entity.cpp" "CMakeFiles/Dungeon.dir/src/entities/Entity.cpp.o" "gcc" "CMakeFiles/Dungeon.dir/src/entities/Entity.cpp.o.d"
   "/home/esercitazioni/prove/Dungeon/src/main.cpp" "CMakeFiles/Dungeon.dir/src/main.cpp.o" "gcc" "CMakeFiles/Dungeon.dir/src/main.cpp.o.d"
   "/home/esercitazioni/prove/Dungeon/src/render/LayeredRenderSystem.cpp" "CMakeFiles/Dungeon.dir/src/render/LayeredRenderSystem.cpp.o" "gcc" "CMakeFiles/Dungeon.dir/src/render/LayeredRenderSystem.cpp.o.d"
+  "/home/esercitazioni/prove/Dungeon/src/render/RenderComponent.cpp" "CMakeFiles/Dungeon.dir/src/render/RenderComponent.cpp.o" "gcc" "CMakeFiles/Dungeon.dir/src/render/RenderComponent.cpp.o.d"
   "/home/esercitazioni/prove/Dungeon/src/render/RenderSystem.cpp" "CMakeFiles/Dungeon.dir/src/render/RenderSystem.cpp.o" "gcc" "CMakeFiles/Dungeon.dir/src/render/RenderSystem.cpp.o.d"
   "/home/esercitazioni/prove/Dungeon/src/render/TextureLoader.cpp" "CMakeFiles/Dungeon.dir/src/render/TextureLoader.cpp.o" "gcc" "CMakeFiles/Dungeon.dir/src/render/TextureLoader.cpp.o.d"
   "/home/esercitazioni/prove/Dungeon/src/render/TextureRegistry.cpp" "CMakeFiles/Dungeon.dir/src/render/TextureRegistry.cpp.o" "gcc" "CMakeFiles/Dungeon.dir/src/render/TextureRegistry.cpp.o.d"

@@ -13,6 +13,7 @@ target_sources(${PROJECT_NAME} PRIVATE
     src/entities/Entity.cpp
     src/main.cpp
     src/render/LayeredRenderSystem.cpp
+    src/render/RenderComponent.cpp
     src/render/RenderSystem.cpp
     src/render/TextureLoader.cpp
     src/render/TextureRegistry.cpp
@@ -23,6 +24,7 @@ target_sources(${PROJECT_NAME} PRIVATE
     include/map/GameMap.h
     include/map/Tile.h
     include/render/LayeredRenderSystem.h
+    include/render/RenderComponent.h
     include/render/RenderSystem.h
     include/render/TextureLoader.h
     include/render/TextureRegistry.h

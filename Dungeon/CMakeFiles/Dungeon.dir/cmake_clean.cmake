@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Dungeon.dir/src/main.cpp.o.d"
   "CMakeFiles/Dungeon.dir/src/render/LayeredRenderSystem.cpp.o"
   "CMakeFiles/Dungeon.dir/src/render/LayeredRenderSystem.cpp.o.d"
+  "CMakeFiles/Dungeon.dir/src/render/RenderComponent.cpp.o"
+  "CMakeFiles/Dungeon.dir/src/render/RenderComponent.cpp.o.d"
   "CMakeFiles/Dungeon.dir/src/render/RenderSystem.cpp.o"
   "CMakeFiles/Dungeon.dir/src/render/RenderSystem.cpp.o.d"
   "CMakeFiles/Dungeon.dir/src/render/TextureLoader.cpp.o"
