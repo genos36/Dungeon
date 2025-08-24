@@ -17,7 +17,7 @@ target_compile_definitions(${PROJECT_NAME} PRIVATE
 )
 
 # Dipendenze
-find_package(SFML 2.5 REQUIRED COMPONENTS graphics window system)
+find_package(SFML 2.5 REQUIRED COMPONENTS audio graphics window system)
 target_link_libraries(${PROJECT_NAME} PRIVATE 
     sfml-graphics 
     sfml-window 
@@ -26,4 +26,4 @@ target_link_libraries(${PROJECT_NAME} PRIVATE
 )
 
 # Asset handling (new for visualizer)
-configure_file(assets/ ${CMAKE_CURRENT_BINARY_DIR}/assets COPYONLY)
+file(COPY assets/ DESTINATION ${CMAKE_BINARY_DIR}/assets)
