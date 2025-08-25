@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Dungeon.dir/src/main.cpp.o.d"
   "CMakeFiles/Dungeon.dir/src/render/AnimationSystem.cpp.o"
   "CMakeFiles/Dungeon.dir/src/render/AnimationSystem.cpp.o.d"
+  "CMakeFiles/Dungeon.dir/src/render/Camera.cpp.o"
+  "CMakeFiles/Dungeon.dir/src/render/Camera.cpp.o.d"
   "CMakeFiles/Dungeon.dir/src/render/LayeredRenderSystem.cpp.o"
   "CMakeFiles/Dungeon.dir/src/render/LayeredRenderSystem.cpp.o.d"
   "CMakeFiles/Dungeon.dir/src/render/RenderComponent.cpp.o"

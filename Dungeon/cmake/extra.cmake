@@ -13,6 +13,7 @@ target_sources(${PROJECT_NAME} PRIVATE
     src/entities/Entity.cpp
     src/main.cpp
     src/render/AnimationSystem.cpp
+    src/render/Camera.cpp
     src/render/LayeredRenderSystem.cpp
     src/render/RenderComponent.cpp
     src/render/RenderSystem.cpp
@@ -25,6 +26,7 @@ target_sources(${PROJECT_NAME} PRIVATE
     include/map/GameMap.h
     include/map/Tile.h
     include/render/AnimationSystem.h
+    include/render/Camera.h
     include/render/LayeredRenderSystem.h
     include/render/RenderComponent.h
     include/render/RenderSystem.h
