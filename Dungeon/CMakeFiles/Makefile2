@@ -81,12 +81,12 @@ clean: CMakeFiles/Dungeon.dir/clean
 CMakeFiles/Dungeon.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/esercitazioni/prove/Dungeon/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target Dungeon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/esercitazioni/prove/Dungeon/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target Dungeon"
 .PHONY : CMakeFiles/Dungeon.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Dungeon.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/esercitazioni/prove/Dungeon/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/esercitazioni/prove/Dungeon/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Dungeon.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/esercitazioni/prove/Dungeon/CMakeFiles 0
 .PHONY : CMakeFiles/Dungeon.dir/rule

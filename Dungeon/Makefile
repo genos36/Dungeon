@@ -177,6 +177,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/render/AnimationSystem.o: src/render/AnimationSystem.cpp.o
+.PHONY : src/render/AnimationSystem.o
+
+# target to build an object file
+src/render/AnimationSystem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/render/AnimationSystem.cpp.o
+.PHONY : src/render/AnimationSystem.cpp.o
+
+src/render/AnimationSystem.i: src/render/AnimationSystem.cpp.i
+.PHONY : src/render/AnimationSystem.i
+
+# target to preprocess a source file
+src/render/AnimationSystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/render/AnimationSystem.cpp.i
+.PHONY : src/render/AnimationSystem.cpp.i
+
+src/render/AnimationSystem.s: src/render/AnimationSystem.cpp.s
+.PHONY : src/render/AnimationSystem.s
+
+# target to generate assembly for a file
+src/render/AnimationSystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/render/AnimationSystem.cpp.s
+.PHONY : src/render/AnimationSystem.cpp.s
+
 src/render/LayeredRenderSystem.o: src/render/LayeredRenderSystem.cpp.o
 .PHONY : src/render/LayeredRenderSystem.o
 
@@ -312,6 +336,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/render/AnimationSystem.o"
+	@echo "... src/render/AnimationSystem.i"
+	@echo "... src/render/AnimationSystem.s"
 	@echo "... src/render/LayeredRenderSystem.o"
 	@echo "... src/render/LayeredRenderSystem.i"
 	@echo "... src/render/LayeredRenderSystem.s"

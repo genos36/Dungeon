@@ -6,6 +6,7 @@
 #include "TextureRegistry.h"
 #include "TextureLoader.h"
 #include "LayeredRenderSystem.h"
+#include "AnimationSystem.h"
 
 //A component that gives entities their visual representation, separating rendering logic from game logic.
 class RenderComponent{
@@ -24,28 +25,12 @@ private:
     
     // Enhanced features
     bool flipX, flipY;
+    // Animation system
+    AnimationSystem animationSystem;
 /*    
     sf::Shader* shader;
     sf::BlendMode blendMode;
-    // Animation system
-    struct Animation {
-        std::vector<sf::IntRect> frames;
-        float frameTime;
-        bool loop;
-        std::string nextAnimation;
 
-        Animation(const std::vector<sf::IntRect>& frames, 
-              float frameTime = 0.1f, 
-              bool loop = true,
-              const std::string& nextAnimation = ""): 
-              frames(frames), frameTime(frameTime), loop(loop), 
-              nextAnimation(nextAnimation) {}
-        };
-    
-    std::map<std::string, Animation> animations;
-    Animation* currentAnimation;
-    float animationTimer;
-    int currentFrame;
     
     // State system
     std::map<std::string, std::pair<sf::Color, std::string>> stateVisuals;
@@ -78,8 +63,24 @@ public:
     const sf::Vector2f& getScale() const;
     void setOffset(const sf::Vector2f& offset);
     const sf::Vector2f& getOffset() const;
-/*
+    
     // Animation
+    void addAnimation(const std::vector<sf::IntRect>& frames,
+                     AnimationID id, 
+                     float frameTime = 0.1f, 
+                     bool loop = true);
+    
+    void playAnimation(AnimationID id, bool restart = false) ;
+    
+    void stopAnimation() ;
+    
+    void updateAnimation(float deltaTime) ;
+    
+    bool isPlayingAnimation() const ;
+    
+    AnimationID getCurrentAnimationID() const ;
+
+    /*
     void addAnimation(const std::string& name, const std::vector<sf::IntRect>& frames, 
                      float frameTime, bool loop = true);
     void playAnimation(const std::string& name, bool restart = false);
@@ -105,7 +106,8 @@ public:
                        const std::string& animation = "");    
 
 */
-
+private:
+    void updateTextureRectFromAnimation();
 };
 
 #endif

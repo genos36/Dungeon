@@ -2,6 +2,8 @@
 #include "../include/render/LayeredRenderSystem.h"
 #include "../include/render/TextureRegistry.h"
 #include "../include/render/TextureLoader.h"
+#include "../include/render/AnimationSystem.h"
+#include "../include/render/RenderComponent.h"
 int main() {
 
     /*
@@ -48,6 +50,16 @@ int main() {
     LayeredRenderSystem renderSystem(&window);
     TextureLoader* textureLoader=TextureLoader::instance();
 
+    RenderComponent RedTree(TextureType::TREE, RenderLayer::ENTITIES);
+    RedTree.setColor(sf::Color::Red);
+    RenderComponent blueTree(TextureType::TREE, RenderLayer::ENTITIES);
+    blueTree.setColor(sf::Color::Blue);
+
+
+
+
+// Play animation
+
 // Game loop
     while (window.isOpen()) {
         sf::Event event;
@@ -72,14 +84,17 @@ int main() {
                 (x+y)%2>0?renderSystem.addToLayer(RenderLayer::BACKGROUND,grass):
                             renderSystem.addToLayer(RenderLayer::BACKGROUND,rock);
                 tree.setPosition(x*32,y*32);
-                renderSystem.addToLayer(RenderLayer::BACKGROUND,tree);
                 
+                if((x+y)%2)renderSystem.addToLayer(RenderLayer::BACKGROUND,RedTree.createSprite(sf::Vector2f( x*32,y*32)));
+                else renderSystem.addToLayer(RenderLayer::BACKGROUND,blueTree.createSprite(sf::Vector2f( x*32,y*32)));
 
             }
         }
 
-        renderSystem.renderAll();
 
+        
+        renderSystem.renderAll();
+        // treeRender.draw(window,sf::Vector2f(0.f,0.f));
         renderSystem.endFrame();
     }
 

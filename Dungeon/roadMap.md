@@ -7,8 +7,8 @@ Step 1.4: Basic Tile Drawing
 Phase 2: Core System (Week 2-3)
 text
 Step 2.1: Layered Rendering System
--------------------------------
 Step 2.2: Entity Rendering Component
+-------------------------------
 Step 2.3: Camera/View System
 Step 2.4: Batch Rendering for Tiles
 

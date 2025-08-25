@@ -265,4 +265,8 @@ CMakeFiles/Dungeon.dir/src/main.cpp.o: \
  /home/esercitazioni/prove/Dungeon/src/../include/render/TextureRegistry.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
- /home/esercitazioni/prove/Dungeon/src/../include/render/LayeredRenderSystem.h
+ /home/esercitazioni/prove/Dungeon/src/../include/render/LayeredRenderSystem.h \
+ /home/esercitazioni/prove/Dungeon/src/../include/render/AnimationSystem.h \
+ /usr/include/c++/13/cstdint \
+ /home/esercitazioni/prove/Dungeon/src/../include/render/RenderComponent.h \
+ /home/esercitazioni/prove/Dungeon/src/../include/render/AnimationSystem.h
