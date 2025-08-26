@@ -201,6 +201,54 @@ src/render/AnimationSystem.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/render/AnimationSystem.cpp.s
 .PHONY : src/render/AnimationSystem.cpp.s
 
+src/render/BatchRenderLayerSystem.o: src/render/BatchRenderLayerSystem.cpp.o
+.PHONY : src/render/BatchRenderLayerSystem.o
+
+# target to build an object file
+src/render/BatchRenderLayerSystem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/render/BatchRenderLayerSystem.cpp.o
+.PHONY : src/render/BatchRenderLayerSystem.cpp.o
+
+src/render/BatchRenderLayerSystem.i: src/render/BatchRenderLayerSystem.cpp.i
+.PHONY : src/render/BatchRenderLayerSystem.i
+
+# target to preprocess a source file
+src/render/BatchRenderLayerSystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/render/BatchRenderLayerSystem.cpp.i
+.PHONY : src/render/BatchRenderLayerSystem.cpp.i
+
+src/render/BatchRenderLayerSystem.s: src/render/BatchRenderLayerSystem.cpp.s
+.PHONY : src/render/BatchRenderLayerSystem.s
+
+# target to generate assembly for a file
+src/render/BatchRenderLayerSystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/render/BatchRenderLayerSystem.cpp.s
+.PHONY : src/render/BatchRenderLayerSystem.cpp.s
+
+src/render/BatchRenderer.o: src/render/BatchRenderer.cpp.o
+.PHONY : src/render/BatchRenderer.o
+
+# target to build an object file
+src/render/BatchRenderer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/render/BatchRenderer.cpp.o
+.PHONY : src/render/BatchRenderer.cpp.o
+
+src/render/BatchRenderer.i: src/render/BatchRenderer.cpp.i
+.PHONY : src/render/BatchRenderer.i
+
+# target to preprocess a source file
+src/render/BatchRenderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/render/BatchRenderer.cpp.i
+.PHONY : src/render/BatchRenderer.cpp.i
+
+src/render/BatchRenderer.s: src/render/BatchRenderer.cpp.s
+.PHONY : src/render/BatchRenderer.s
+
+# target to generate assembly for a file
+src/render/BatchRenderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/render/BatchRenderer.cpp.s
+.PHONY : src/render/BatchRenderer.cpp.s
+
 src/render/Camera.o: src/render/Camera.cpp.o
 .PHONY : src/render/Camera.o
 
@@ -363,6 +411,12 @@ help:
 	@echo "... src/render/AnimationSystem.o"
 	@echo "... src/render/AnimationSystem.i"
 	@echo "... src/render/AnimationSystem.s"
+	@echo "... src/render/BatchRenderLayerSystem.o"
+	@echo "... src/render/BatchRenderLayerSystem.i"
+	@echo "... src/render/BatchRenderLayerSystem.s"
+	@echo "... src/render/BatchRenderer.o"
+	@echo "... src/render/BatchRenderer.i"
+	@echo "... src/render/BatchRenderer.s"
 	@echo "... src/render/Camera.o"
 	@echo "... src/render/Camera.i"
 	@echo "... src/render/Camera.s"

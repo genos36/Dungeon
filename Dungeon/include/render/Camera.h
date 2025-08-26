@@ -37,7 +37,7 @@ private:
 
     //static configuration variable
     static constexpr float INITIAL_ZOOM_LEVEL=1.f;
-    static constexpr float INITIAL_MOVE_SPEED=1.f;
+    static constexpr float INITIAL_MOVE_SPEED=10.f;
     static constexpr float INITIAL_ZOOM_SPEED=1.f;
     static constexpr float INITIAL_SHAKE_AMOUNT=0.f;
     static constexpr float INITIAL_SHAKE_DURATION=1.f;
@@ -95,8 +95,8 @@ public:
     void moveLeft(float speedMultiplier=1.f);
     void moveRight(float speedMultiplier=1.f);
     // Zoom convenience methods
-    void zoomIn(float factor=1.f);
-    void zoomOut(float factor=1.f);
+    void zoomIn(float factor=1.2f);
+    void zoomOut(float factor=0.8f);
     void resetZoom();                   // Reset to default zoom level
 
     // Preset movement methods  

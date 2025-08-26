@@ -11,6 +11,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/esercitazioni/prove/Dungeon/src/entities/Entity.cpp" "CMakeFiles/Dungeon.dir/src/entities/Entity.cpp.o" "gcc" "CMakeFiles/Dungeon.dir/src/entities/Entity.cpp.o.d"
   "/home/esercitazioni/prove/Dungeon/src/main.cpp" "CMakeFiles/Dungeon.dir/src/main.cpp.o" "gcc" "CMakeFiles/Dungeon.dir/src/main.cpp.o.d"
   "/home/esercitazioni/prove/Dungeon/src/render/AnimationSystem.cpp" "CMakeFiles/Dungeon.dir/src/render/AnimationSystem.cpp.o" "gcc" "CMakeFiles/Dungeon.dir/src/render/AnimationSystem.cpp.o.d"
+  "/home/esercitazioni/prove/Dungeon/src/render/BatchRenderLayerSystem.cpp" "CMakeFiles/Dungeon.dir/src/render/BatchRenderLayerSystem.cpp.o" "gcc" "CMakeFiles/Dungeon.dir/src/render/BatchRenderLayerSystem.cpp.o.d"
+  "/home/esercitazioni/prove/Dungeon/src/render/BatchRenderer.cpp" "CMakeFiles/Dungeon.dir/src/render/BatchRenderer.cpp.o" "gcc" "CMakeFiles/Dungeon.dir/src/render/BatchRenderer.cpp.o.d"
   "/home/esercitazioni/prove/Dungeon/src/render/Camera.cpp" "CMakeFiles/Dungeon.dir/src/render/Camera.cpp.o" "gcc" "CMakeFiles/Dungeon.dir/src/render/Camera.cpp.o.d"
   "/home/esercitazioni/prove/Dungeon/src/render/LayeredRenderSystem.cpp" "CMakeFiles/Dungeon.dir/src/render/LayeredRenderSystem.cpp.o" "gcc" "CMakeFiles/Dungeon.dir/src/render/LayeredRenderSystem.cpp.o.d"
   "/home/esercitazioni/prove/Dungeon/src/render/RenderComponent.cpp" "CMakeFiles/Dungeon.dir/src/render/RenderComponent.cpp.o" "gcc" "CMakeFiles/Dungeon.dir/src/render/RenderComponent.cpp.o.d"

@@ -17,36 +17,36 @@ void LayeredRenderSystem::addToLayer(RenderLayer layer, const sf::Sprite& sprite
 
 
 
-    void LayeredRenderSystem::renderAll() {
-        if(!window)return;
-        // Iterate through layers in order - super fast!
-        for (auto& layer : renderLayers) {
-            for (auto& sprite : layer) {
-                window->draw(sprite);
-            }
-            layer.clear(); // Clear vectors for next frame
+void LayeredRenderSystem::renderAll() {
+    if(!window)return;
+    // Iterate through layers in order - super fast!
+    for (auto& layer : renderLayers) {
+        for (auto& sprite : layer) {
+            window->draw(sprite);
         }
+        layer.clear(); // Clear vectors for next frame
     }
+}
 
-    size_t LayeredRenderSystem::getLayerCount(RenderLayer layer) const {
-        return (static_cast<size_t>(layer) < renderLayers.size()) ? 
-            renderLayers[static_cast<size_t>(layer)].size() : 0;
-    }
-    
-    size_t LayeredRenderSystem::getTotalDrawCalls() const {
-        size_t total = 0;
-        for (const auto& layer : renderLayers) {
-            total += layer.size();
-        }
-        return total;
-    }
+size_t LayeredRenderSystem::getLayerCount(RenderLayer layer) const {
+    return (static_cast<size_t>(layer) < renderLayers.size()) ? 
+        renderLayers[static_cast<size_t>(layer)].size() : 0;
+}
 
-
-    void LayeredRenderSystem::beginFrame(){
-        window->clear(sf::Color::Black);
+size_t LayeredRenderSystem::getTotalDrawCalls() const {
+    size_t total = 0;
+    for (const auto& layer : renderLayers) {
+        total += layer.size();
     }
+    return total;
+}
 
 
-    void LayeredRenderSystem::endFrame(){
-        window->display();
-    }
+void LayeredRenderSystem::beginFrame(){
+    window->clear(sf::Color::Black);
+}
+
+void LayeredRenderSystem::endFrame(){
+    window->display();
+}
+
