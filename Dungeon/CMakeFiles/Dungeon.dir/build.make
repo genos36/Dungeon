@@ -153,10 +153,80 @@ CMakeFiles/Dungeon.dir/src/render/Camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Dungeon.dir/src/render/Camera.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/esercitazioni/prove/Dungeon/src/render/Camera.cpp -o CMakeFiles/Dungeon.dir/src/render/Camera.cpp.s
 
+CMakeFiles/Dungeon.dir/src/render/CulledRenderSystem.cpp.o: CMakeFiles/Dungeon.dir/flags.make
+CMakeFiles/Dungeon.dir/src/render/CulledRenderSystem.cpp.o: src/render/CulledRenderSystem.cpp
+CMakeFiles/Dungeon.dir/src/render/CulledRenderSystem.cpp.o: CMakeFiles/Dungeon.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/esercitazioni/prove/Dungeon/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Dungeon.dir/src/render/CulledRenderSystem.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Dungeon.dir/src/render/CulledRenderSystem.cpp.o -MF CMakeFiles/Dungeon.dir/src/render/CulledRenderSystem.cpp.o.d -o CMakeFiles/Dungeon.dir/src/render/CulledRenderSystem.cpp.o -c /home/esercitazioni/prove/Dungeon/src/render/CulledRenderSystem.cpp
+
+CMakeFiles/Dungeon.dir/src/render/CulledRenderSystem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Dungeon.dir/src/render/CulledRenderSystem.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/esercitazioni/prove/Dungeon/src/render/CulledRenderSystem.cpp > CMakeFiles/Dungeon.dir/src/render/CulledRenderSystem.cpp.i
+
+CMakeFiles/Dungeon.dir/src/render/CulledRenderSystem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Dungeon.dir/src/render/CulledRenderSystem.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/esercitazioni/prove/Dungeon/src/render/CulledRenderSystem.cpp -o CMakeFiles/Dungeon.dir/src/render/CulledRenderSystem.cpp.s
+
+CMakeFiles/Dungeon.dir/src/render/CullingStrategy/ConservativeFrustumCulling.cpp.o: CMakeFiles/Dungeon.dir/flags.make
+CMakeFiles/Dungeon.dir/src/render/CullingStrategy/ConservativeFrustumCulling.cpp.o: src/render/CullingStrategy/ConservativeFrustumCulling.cpp
+CMakeFiles/Dungeon.dir/src/render/CullingStrategy/ConservativeFrustumCulling.cpp.o: CMakeFiles/Dungeon.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/esercitazioni/prove/Dungeon/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Dungeon.dir/src/render/CullingStrategy/ConservativeFrustumCulling.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Dungeon.dir/src/render/CullingStrategy/ConservativeFrustumCulling.cpp.o -MF CMakeFiles/Dungeon.dir/src/render/CullingStrategy/ConservativeFrustumCulling.cpp.o.d -o CMakeFiles/Dungeon.dir/src/render/CullingStrategy/ConservativeFrustumCulling.cpp.o -c /home/esercitazioni/prove/Dungeon/src/render/CullingStrategy/ConservativeFrustumCulling.cpp
+
+CMakeFiles/Dungeon.dir/src/render/CullingStrategy/ConservativeFrustumCulling.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Dungeon.dir/src/render/CullingStrategy/ConservativeFrustumCulling.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/esercitazioni/prove/Dungeon/src/render/CullingStrategy/ConservativeFrustumCulling.cpp > CMakeFiles/Dungeon.dir/src/render/CullingStrategy/ConservativeFrustumCulling.cpp.i
+
+CMakeFiles/Dungeon.dir/src/render/CullingStrategy/ConservativeFrustumCulling.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Dungeon.dir/src/render/CullingStrategy/ConservativeFrustumCulling.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/esercitazioni/prove/Dungeon/src/render/CullingStrategy/ConservativeFrustumCulling.cpp -o CMakeFiles/Dungeon.dir/src/render/CullingStrategy/ConservativeFrustumCulling.cpp.s
+
+CMakeFiles/Dungeon.dir/src/render/CullingStrategy/DistanceCullingStrategy.cpp.o: CMakeFiles/Dungeon.dir/flags.make
+CMakeFiles/Dungeon.dir/src/render/CullingStrategy/DistanceCullingStrategy.cpp.o: src/render/CullingStrategy/DistanceCullingStrategy.cpp
+CMakeFiles/Dungeon.dir/src/render/CullingStrategy/DistanceCullingStrategy.cpp.o: CMakeFiles/Dungeon.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/esercitazioni/prove/Dungeon/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Dungeon.dir/src/render/CullingStrategy/DistanceCullingStrategy.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Dungeon.dir/src/render/CullingStrategy/DistanceCullingStrategy.cpp.o -MF CMakeFiles/Dungeon.dir/src/render/CullingStrategy/DistanceCullingStrategy.cpp.o.d -o CMakeFiles/Dungeon.dir/src/render/CullingStrategy/DistanceCullingStrategy.cpp.o -c /home/esercitazioni/prove/Dungeon/src/render/CullingStrategy/DistanceCullingStrategy.cpp
+
+CMakeFiles/Dungeon.dir/src/render/CullingStrategy/DistanceCullingStrategy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Dungeon.dir/src/render/CullingStrategy/DistanceCullingStrategy.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/esercitazioni/prove/Dungeon/src/render/CullingStrategy/DistanceCullingStrategy.cpp > CMakeFiles/Dungeon.dir/src/render/CullingStrategy/DistanceCullingStrategy.cpp.i
+
+CMakeFiles/Dungeon.dir/src/render/CullingStrategy/DistanceCullingStrategy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Dungeon.dir/src/render/CullingStrategy/DistanceCullingStrategy.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/esercitazioni/prove/Dungeon/src/render/CullingStrategy/DistanceCullingStrategy.cpp -o CMakeFiles/Dungeon.dir/src/render/CullingStrategy/DistanceCullingStrategy.cpp.s
+
+CMakeFiles/Dungeon.dir/src/render/CullingStrategy/NoCullingStrategy.cpp.o: CMakeFiles/Dungeon.dir/flags.make
+CMakeFiles/Dungeon.dir/src/render/CullingStrategy/NoCullingStrategy.cpp.o: src/render/CullingStrategy/NoCullingStrategy.cpp
+CMakeFiles/Dungeon.dir/src/render/CullingStrategy/NoCullingStrategy.cpp.o: CMakeFiles/Dungeon.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/esercitazioni/prove/Dungeon/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Dungeon.dir/src/render/CullingStrategy/NoCullingStrategy.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Dungeon.dir/src/render/CullingStrategy/NoCullingStrategy.cpp.o -MF CMakeFiles/Dungeon.dir/src/render/CullingStrategy/NoCullingStrategy.cpp.o.d -o CMakeFiles/Dungeon.dir/src/render/CullingStrategy/NoCullingStrategy.cpp.o -c /home/esercitazioni/prove/Dungeon/src/render/CullingStrategy/NoCullingStrategy.cpp
+
+CMakeFiles/Dungeon.dir/src/render/CullingStrategy/NoCullingStrategy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Dungeon.dir/src/render/CullingStrategy/NoCullingStrategy.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/esercitazioni/prove/Dungeon/src/render/CullingStrategy/NoCullingStrategy.cpp > CMakeFiles/Dungeon.dir/src/render/CullingStrategy/NoCullingStrategy.cpp.i
+
+CMakeFiles/Dungeon.dir/src/render/CullingStrategy/NoCullingStrategy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Dungeon.dir/src/render/CullingStrategy/NoCullingStrategy.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/esercitazioni/prove/Dungeon/src/render/CullingStrategy/NoCullingStrategy.cpp -o CMakeFiles/Dungeon.dir/src/render/CullingStrategy/NoCullingStrategy.cpp.s
+
+CMakeFiles/Dungeon.dir/src/render/CullingStrategy/ZoomAwareCullingStrategy.cpp.o: CMakeFiles/Dungeon.dir/flags.make
+CMakeFiles/Dungeon.dir/src/render/CullingStrategy/ZoomAwareCullingStrategy.cpp.o: src/render/CullingStrategy/ZoomAwareCullingStrategy.cpp
+CMakeFiles/Dungeon.dir/src/render/CullingStrategy/ZoomAwareCullingStrategy.cpp.o: CMakeFiles/Dungeon.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/esercitazioni/prove/Dungeon/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Dungeon.dir/src/render/CullingStrategy/ZoomAwareCullingStrategy.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Dungeon.dir/src/render/CullingStrategy/ZoomAwareCullingStrategy.cpp.o -MF CMakeFiles/Dungeon.dir/src/render/CullingStrategy/ZoomAwareCullingStrategy.cpp.o.d -o CMakeFiles/Dungeon.dir/src/render/CullingStrategy/ZoomAwareCullingStrategy.cpp.o -c /home/esercitazioni/prove/Dungeon/src/render/CullingStrategy/ZoomAwareCullingStrategy.cpp
+
+CMakeFiles/Dungeon.dir/src/render/CullingStrategy/ZoomAwareCullingStrategy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Dungeon.dir/src/render/CullingStrategy/ZoomAwareCullingStrategy.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/esercitazioni/prove/Dungeon/src/render/CullingStrategy/ZoomAwareCullingStrategy.cpp > CMakeFiles/Dungeon.dir/src/render/CullingStrategy/ZoomAwareCullingStrategy.cpp.i
+
+CMakeFiles/Dungeon.dir/src/render/CullingStrategy/ZoomAwareCullingStrategy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Dungeon.dir/src/render/CullingStrategy/ZoomAwareCullingStrategy.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/esercitazioni/prove/Dungeon/src/render/CullingStrategy/ZoomAwareCullingStrategy.cpp -o CMakeFiles/Dungeon.dir/src/render/CullingStrategy/ZoomAwareCullingStrategy.cpp.s
+
 CMakeFiles/Dungeon.dir/src/render/LayeredRenderSystem.cpp.o: CMakeFiles/Dungeon.dir/flags.make
 CMakeFiles/Dungeon.dir/src/render/LayeredRenderSystem.cpp.o: src/render/LayeredRenderSystem.cpp
 CMakeFiles/Dungeon.dir/src/render/LayeredRenderSystem.cpp.o: CMakeFiles/Dungeon.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/esercitazioni/prove/Dungeon/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Dungeon.dir/src/render/LayeredRenderSystem.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/esercitazioni/prove/Dungeon/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Dungeon.dir/src/render/LayeredRenderSystem.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Dungeon.dir/src/render/LayeredRenderSystem.cpp.o -MF CMakeFiles/Dungeon.dir/src/render/LayeredRenderSystem.cpp.o.d -o CMakeFiles/Dungeon.dir/src/render/LayeredRenderSystem.cpp.o -c /home/esercitazioni/prove/Dungeon/src/render/LayeredRenderSystem.cpp
 
 CMakeFiles/Dungeon.dir/src/render/LayeredRenderSystem.cpp.i: cmake_force
@@ -170,7 +240,7 @@ CMakeFiles/Dungeon.dir/src/render/LayeredRenderSystem.cpp.s: cmake_force
 CMakeFiles/Dungeon.dir/src/render/RenderComponent.cpp.o: CMakeFiles/Dungeon.dir/flags.make
 CMakeFiles/Dungeon.dir/src/render/RenderComponent.cpp.o: src/render/RenderComponent.cpp
 CMakeFiles/Dungeon.dir/src/render/RenderComponent.cpp.o: CMakeFiles/Dungeon.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/esercitazioni/prove/Dungeon/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Dungeon.dir/src/render/RenderComponent.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/esercitazioni/prove/Dungeon/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Dungeon.dir/src/render/RenderComponent.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Dungeon.dir/src/render/RenderComponent.cpp.o -MF CMakeFiles/Dungeon.dir/src/render/RenderComponent.cpp.o.d -o CMakeFiles/Dungeon.dir/src/render/RenderComponent.cpp.o -c /home/esercitazioni/prove/Dungeon/src/render/RenderComponent.cpp
 
 CMakeFiles/Dungeon.dir/src/render/RenderComponent.cpp.i: cmake_force
@@ -184,7 +254,7 @@ CMakeFiles/Dungeon.dir/src/render/RenderComponent.cpp.s: cmake_force
 CMakeFiles/Dungeon.dir/src/render/RenderSystem.cpp.o: CMakeFiles/Dungeon.dir/flags.make
 CMakeFiles/Dungeon.dir/src/render/RenderSystem.cpp.o: src/render/RenderSystem.cpp
 CMakeFiles/Dungeon.dir/src/render/RenderSystem.cpp.o: CMakeFiles/Dungeon.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/esercitazioni/prove/Dungeon/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Dungeon.dir/src/render/RenderSystem.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/esercitazioni/prove/Dungeon/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Dungeon.dir/src/render/RenderSystem.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Dungeon.dir/src/render/RenderSystem.cpp.o -MF CMakeFiles/Dungeon.dir/src/render/RenderSystem.cpp.o.d -o CMakeFiles/Dungeon.dir/src/render/RenderSystem.cpp.o -c /home/esercitazioni/prove/Dungeon/src/render/RenderSystem.cpp
 
 CMakeFiles/Dungeon.dir/src/render/RenderSystem.cpp.i: cmake_force
@@ -198,7 +268,7 @@ CMakeFiles/Dungeon.dir/src/render/RenderSystem.cpp.s: cmake_force
 CMakeFiles/Dungeon.dir/src/render/TextureLoader.cpp.o: CMakeFiles/Dungeon.dir/flags.make
 CMakeFiles/Dungeon.dir/src/render/TextureLoader.cpp.o: src/render/TextureLoader.cpp
 CMakeFiles/Dungeon.dir/src/render/TextureLoader.cpp.o: CMakeFiles/Dungeon.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/esercitazioni/prove/Dungeon/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Dungeon.dir/src/render/TextureLoader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/esercitazioni/prove/Dungeon/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Dungeon.dir/src/render/TextureLoader.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Dungeon.dir/src/render/TextureLoader.cpp.o -MF CMakeFiles/Dungeon.dir/src/render/TextureLoader.cpp.o.d -o CMakeFiles/Dungeon.dir/src/render/TextureLoader.cpp.o -c /home/esercitazioni/prove/Dungeon/src/render/TextureLoader.cpp
 
 CMakeFiles/Dungeon.dir/src/render/TextureLoader.cpp.i: cmake_force
@@ -212,7 +282,7 @@ CMakeFiles/Dungeon.dir/src/render/TextureLoader.cpp.s: cmake_force
 CMakeFiles/Dungeon.dir/src/render/TextureRegistry.cpp.o: CMakeFiles/Dungeon.dir/flags.make
 CMakeFiles/Dungeon.dir/src/render/TextureRegistry.cpp.o: src/render/TextureRegistry.cpp
 CMakeFiles/Dungeon.dir/src/render/TextureRegistry.cpp.o: CMakeFiles/Dungeon.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/esercitazioni/prove/Dungeon/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Dungeon.dir/src/render/TextureRegistry.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/esercitazioni/prove/Dungeon/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Dungeon.dir/src/render/TextureRegistry.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Dungeon.dir/src/render/TextureRegistry.cpp.o -MF CMakeFiles/Dungeon.dir/src/render/TextureRegistry.cpp.o.d -o CMakeFiles/Dungeon.dir/src/render/TextureRegistry.cpp.o -c /home/esercitazioni/prove/Dungeon/src/render/TextureRegistry.cpp
 
 CMakeFiles/Dungeon.dir/src/render/TextureRegistry.cpp.i: cmake_force
@@ -231,6 +301,11 @@ Dungeon_OBJECTS = \
 "CMakeFiles/Dungeon.dir/src/render/BatchRenderLayerSystem.cpp.o" \
 "CMakeFiles/Dungeon.dir/src/render/BatchRenderer.cpp.o" \
 "CMakeFiles/Dungeon.dir/src/render/Camera.cpp.o" \
+"CMakeFiles/Dungeon.dir/src/render/CulledRenderSystem.cpp.o" \
+"CMakeFiles/Dungeon.dir/src/render/CullingStrategy/ConservativeFrustumCulling.cpp.o" \
+"CMakeFiles/Dungeon.dir/src/render/CullingStrategy/DistanceCullingStrategy.cpp.o" \
+"CMakeFiles/Dungeon.dir/src/render/CullingStrategy/NoCullingStrategy.cpp.o" \
+"CMakeFiles/Dungeon.dir/src/render/CullingStrategy/ZoomAwareCullingStrategy.cpp.o" \
 "CMakeFiles/Dungeon.dir/src/render/LayeredRenderSystem.cpp.o" \
 "CMakeFiles/Dungeon.dir/src/render/RenderComponent.cpp.o" \
 "CMakeFiles/Dungeon.dir/src/render/RenderSystem.cpp.o" \
@@ -246,6 +321,11 @@ Dungeon: CMakeFiles/Dungeon.dir/src/render/AnimationSystem.cpp.o
 Dungeon: CMakeFiles/Dungeon.dir/src/render/BatchRenderLayerSystem.cpp.o
 Dungeon: CMakeFiles/Dungeon.dir/src/render/BatchRenderer.cpp.o
 Dungeon: CMakeFiles/Dungeon.dir/src/render/Camera.cpp.o
+Dungeon: CMakeFiles/Dungeon.dir/src/render/CulledRenderSystem.cpp.o
+Dungeon: CMakeFiles/Dungeon.dir/src/render/CullingStrategy/ConservativeFrustumCulling.cpp.o
+Dungeon: CMakeFiles/Dungeon.dir/src/render/CullingStrategy/DistanceCullingStrategy.cpp.o
+Dungeon: CMakeFiles/Dungeon.dir/src/render/CullingStrategy/NoCullingStrategy.cpp.o
+Dungeon: CMakeFiles/Dungeon.dir/src/render/CullingStrategy/ZoomAwareCullingStrategy.cpp.o
 Dungeon: CMakeFiles/Dungeon.dir/src/render/LayeredRenderSystem.cpp.o
 Dungeon: CMakeFiles/Dungeon.dir/src/render/RenderComponent.cpp.o
 Dungeon: CMakeFiles/Dungeon.dir/src/render/RenderSystem.cpp.o
@@ -256,7 +336,7 @@ Dungeon: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.6.1
 Dungeon: /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.6.1
 Dungeon: /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.6.1
 Dungeon: CMakeFiles/Dungeon.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/esercitazioni/prove/Dungeon/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable Dungeon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/esercitazioni/prove/Dungeon/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable Dungeon"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Dungeon.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

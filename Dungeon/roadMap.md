@@ -14,12 +14,12 @@ Step 2.4: Batch Rendering for Tiles
     Step 2.4.1: Complete BatchRenderer (you already have the foundation)
     Step 2.4.2: Create BatchRenderLayerSystem that contains BatchRenderer
 
--------------------------------
 ## Phase 3: Optimization (Week 4)
 
-Step 3.1: Texture Atlas Generation
-Step 3.2: Sprite Batching
-Step 3.3: Render Culling
+Step 3.1: Sprite Batching
+Step 3.2: Render Culling
+-------------------------------
+Step 3.2: Texture Atlas Generation
 Step 3.4: Level of Detail (LOD)
 
 ## Phase 4: Advanced Features (Week 5-6)

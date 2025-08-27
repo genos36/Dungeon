@@ -7,7 +7,12 @@
 #include "../include/render/RenderComponent.h"
 #include "../include/render/BatchRenderer.h"
 #include "../include/render/BatchRenderLayerSystem.h"
-
+#include "render/CulledRenderSystem.h"
+#include "render/CullingStrategy/AbstractCullingStrategy.h"
+#include "render/CullingStrategy/ConservativeFrustumCulling.h"
+#include "render/CullingStrategy/DistanceCullingStrategy.h"
+#include "render/CullingStrategy/ZoomAwareCullingStrategy.h"
+#include "render/CullingStrategy/NoCullingStrategy.h"
 void test1(){
         sf::RenderWindow window(sf::VideoMode(800, 600), "Render System Demo");
     LayeredRenderSystem renderSystem(&window);
@@ -66,12 +71,11 @@ void test1(){
 void test2(){
 
 sf::RenderWindow window(sf::VideoMode(800, 600), "Render System Demo");
-LayeredRenderSystem renderSystem(&window);
 TextureLoader* textureLoader = TextureLoader::instance();
 
 // Create camera centered on world origin (0,0) looking at 800x600 area
 Camera camera(sf::Vector2f(400, 300), sf::Vector2f(800, 600)); // Center on (400,300), view size 800x600
-
+BatchRenderLayerSystem renderSystem(&window);
 // Game loop
 while (window.isOpen()) {
     sf::Event event;
@@ -143,6 +147,91 @@ while (window.isOpen()) {
 
 }
 
+void test3(){
+
+sf::RenderWindow window(sf::VideoMode(800, 600), "Render System Demo");
+// LayeredRenderSystem renderSystem(&window);
+BatchRenderer batchRenderer(&window);
+BatchRenderLayerSystem renderSys(&window);
+TextureLoader* textureLoader = TextureLoader::instance();
+
+// Create camera centered on world origin (0,0) looking at 800x600 area
+Camera camera(sf::Vector2f(400, 300), sf::Vector2f(800, 600)); // Center on (400,300), view size 800x600
+
+// Game loop
+while (window.isOpen()) {
+    sf::Event event;
+    while (window.pollEvent(event)) {
+        if (event.type == sf::Event::Closed)
+            window.close();
+            
+        // Add camera movement for testing
+        if (event.type == sf::Event::KeyPressed) {
+            switch (event.key.code) {
+                case sf::Keyboard::Left: camera.moveLeft(); break;
+                case sf::Keyboard::Right: camera.moveRight(); break;
+                case sf::Keyboard::Up: camera.moveUp(); break;
+                case sf::Keyboard::Down: camera.moveDown(); break;
+                case sf::Keyboard::Q: camera.zoom(0.8f); break; // Zoom in
+                case sf::Keyboard::E: camera.zoom(1.2f); break; // Zoom out
+            }
+        }
+    }
+    
+    float deltaTime = 0.016f; // ~60 FPS
+    camera.update(deltaTime);
+    
+    // Rendering
+    renderSys.beginFrame();
+
+    
+    // APPLY CAMERA TO WINDOW FIRST - this is crucial!
+    camera.applyToWindow(window);
+    
+    // Create sprites once (more efficient)
+    sf::Sprite grass(*(textureLoader->loadTexture(TextureType::TILE_GRASS)));
+    sf::Sprite rock(*(textureLoader->loadTexture(TextureType::TILE_ROCK)));
+    
+    RenderComponent RedTree(TextureType::TREE, RenderLayer::ENTITIES);
+    RedTree.setColor(sf::Color::Red);
+    RenderComponent BlueTree(TextureType::TREE, RenderLayer::ENTITIES); 
+    BlueTree.setColor(sf::Color::Blue);
+
+    // Draw tiles - use WORLD coordinates, not screen coordinates!
+    for (int y = 0; y < 10; ++y) {
+        for (int x = 0; x < 10; ++x) {
+            sf::Vector2f worldPosition(x * 32, y * 32); // World coordinates
+            
+            if ((x + y) % 2 > 0) {
+                grass.setPosition(worldPosition); // World coordinates!
+                renderSys.addToLayer(RenderLayer::BACKGROUND,grass);
+            } else {
+                rock.setPosition(worldPosition); // World coordinates!
+                renderSys.addToLayer(RenderLayer::BACKGROUND,rock);
+            }
+            
+            // Add trees - also use world coordinates
+            if ((x + y) % 2) {
+                renderSys.addToLayer(RenderLayer::ENTITIES,RedTree.createSprite(worldPosition));
+            } else {
+                renderSys.addToLayer(RenderLayer::ENTITIES,BlueTree.createSprite(worldPosition));
+            }
+        }
+    }
+    
+
+
+    renderSys.renderAll();
+
+    renderSys.endFrame();
+}  
+}
+
+
+
+
+
+
 int main() {
 
     /*
@@ -188,12 +277,14 @@ int main() {
 sf::RenderWindow window(sf::VideoMode(800, 600), "Render System Demo");
 // LayeredRenderSystem renderSystem(&window);
 BatchRenderer batchRenderer(&window);
-BatchRenderLayerSystem renderSys(&window);
 TextureLoader* textureLoader = TextureLoader::instance();
 
 // Create camera centered on world origin (0,0) looking at 800x600 area
 Camera camera(sf::Vector2f(400, 300), sf::Vector2f(800, 600)); // Center on (400,300), view size 800x600
+CulledRenderSystem renderSys(&window);
+renderSys.setCamera(&camera);
 
+renderSys.setCullingStrategy(std::make_unique<ZoomAwareCullingStrategy>(ZoomAwareCullingStrategy()));
 // Game loop
 while (window.isOpen()) {
     sf::Event event;

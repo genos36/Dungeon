@@ -287,4 +287,9 @@ void Camera::clampToBounds() {
     view.setCenter(currentCenter);
 }
 
-
+float Camera::getMoveSpeed()const{
+    return moveSpeed;
+}
+float Camera::getZoomSpeed()const{
+    return zoomSpeed;
+}

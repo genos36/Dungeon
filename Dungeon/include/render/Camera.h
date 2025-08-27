@@ -86,6 +86,10 @@ public:
     const sf::View& getView()const;
     const sf::FloatRect getViewBounds()const;
 
+    //other getters
+    float getMoveSpeed()const;
+    float getZoomSpeed()const;
+
     // Utility
     bool isPointVisible(const sf::Vector2f& worldPos) const;
     bool isRectVisible(const sf::FloatRect& worldRect) const;

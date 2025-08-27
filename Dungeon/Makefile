@@ -273,6 +273,126 @@ src/render/Camera.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/render/Camera.cpp.s
 .PHONY : src/render/Camera.cpp.s
 
+src/render/CulledRenderSystem.o: src/render/CulledRenderSystem.cpp.o
+.PHONY : src/render/CulledRenderSystem.o
+
+# target to build an object file
+src/render/CulledRenderSystem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/render/CulledRenderSystem.cpp.o
+.PHONY : src/render/CulledRenderSystem.cpp.o
+
+src/render/CulledRenderSystem.i: src/render/CulledRenderSystem.cpp.i
+.PHONY : src/render/CulledRenderSystem.i
+
+# target to preprocess a source file
+src/render/CulledRenderSystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/render/CulledRenderSystem.cpp.i
+.PHONY : src/render/CulledRenderSystem.cpp.i
+
+src/render/CulledRenderSystem.s: src/render/CulledRenderSystem.cpp.s
+.PHONY : src/render/CulledRenderSystem.s
+
+# target to generate assembly for a file
+src/render/CulledRenderSystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/render/CulledRenderSystem.cpp.s
+.PHONY : src/render/CulledRenderSystem.cpp.s
+
+src/render/CullingStrategy/ConservativeFrustumCulling.o: src/render/CullingStrategy/ConservativeFrustumCulling.cpp.o
+.PHONY : src/render/CullingStrategy/ConservativeFrustumCulling.o
+
+# target to build an object file
+src/render/CullingStrategy/ConservativeFrustumCulling.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/render/CullingStrategy/ConservativeFrustumCulling.cpp.o
+.PHONY : src/render/CullingStrategy/ConservativeFrustumCulling.cpp.o
+
+src/render/CullingStrategy/ConservativeFrustumCulling.i: src/render/CullingStrategy/ConservativeFrustumCulling.cpp.i
+.PHONY : src/render/CullingStrategy/ConservativeFrustumCulling.i
+
+# target to preprocess a source file
+src/render/CullingStrategy/ConservativeFrustumCulling.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/render/CullingStrategy/ConservativeFrustumCulling.cpp.i
+.PHONY : src/render/CullingStrategy/ConservativeFrustumCulling.cpp.i
+
+src/render/CullingStrategy/ConservativeFrustumCulling.s: src/render/CullingStrategy/ConservativeFrustumCulling.cpp.s
+.PHONY : src/render/CullingStrategy/ConservativeFrustumCulling.s
+
+# target to generate assembly for a file
+src/render/CullingStrategy/ConservativeFrustumCulling.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/render/CullingStrategy/ConservativeFrustumCulling.cpp.s
+.PHONY : src/render/CullingStrategy/ConservativeFrustumCulling.cpp.s
+
+src/render/CullingStrategy/DistanceCullingStrategy.o: src/render/CullingStrategy/DistanceCullingStrategy.cpp.o
+.PHONY : src/render/CullingStrategy/DistanceCullingStrategy.o
+
+# target to build an object file
+src/render/CullingStrategy/DistanceCullingStrategy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/render/CullingStrategy/DistanceCullingStrategy.cpp.o
+.PHONY : src/render/CullingStrategy/DistanceCullingStrategy.cpp.o
+
+src/render/CullingStrategy/DistanceCullingStrategy.i: src/render/CullingStrategy/DistanceCullingStrategy.cpp.i
+.PHONY : src/render/CullingStrategy/DistanceCullingStrategy.i
+
+# target to preprocess a source file
+src/render/CullingStrategy/DistanceCullingStrategy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/render/CullingStrategy/DistanceCullingStrategy.cpp.i
+.PHONY : src/render/CullingStrategy/DistanceCullingStrategy.cpp.i
+
+src/render/CullingStrategy/DistanceCullingStrategy.s: src/render/CullingStrategy/DistanceCullingStrategy.cpp.s
+.PHONY : src/render/CullingStrategy/DistanceCullingStrategy.s
+
+# target to generate assembly for a file
+src/render/CullingStrategy/DistanceCullingStrategy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/render/CullingStrategy/DistanceCullingStrategy.cpp.s
+.PHONY : src/render/CullingStrategy/DistanceCullingStrategy.cpp.s
+
+src/render/CullingStrategy/NoCullingStrategy.o: src/render/CullingStrategy/NoCullingStrategy.cpp.o
+.PHONY : src/render/CullingStrategy/NoCullingStrategy.o
+
+# target to build an object file
+src/render/CullingStrategy/NoCullingStrategy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/render/CullingStrategy/NoCullingStrategy.cpp.o
+.PHONY : src/render/CullingStrategy/NoCullingStrategy.cpp.o
+
+src/render/CullingStrategy/NoCullingStrategy.i: src/render/CullingStrategy/NoCullingStrategy.cpp.i
+.PHONY : src/render/CullingStrategy/NoCullingStrategy.i
+
+# target to preprocess a source file
+src/render/CullingStrategy/NoCullingStrategy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/render/CullingStrategy/NoCullingStrategy.cpp.i
+.PHONY : src/render/CullingStrategy/NoCullingStrategy.cpp.i
+
+src/render/CullingStrategy/NoCullingStrategy.s: src/render/CullingStrategy/NoCullingStrategy.cpp.s
+.PHONY : src/render/CullingStrategy/NoCullingStrategy.s
+
+# target to generate assembly for a file
+src/render/CullingStrategy/NoCullingStrategy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/render/CullingStrategy/NoCullingStrategy.cpp.s
+.PHONY : src/render/CullingStrategy/NoCullingStrategy.cpp.s
+
+src/render/CullingStrategy/ZoomAwareCullingStrategy.o: src/render/CullingStrategy/ZoomAwareCullingStrategy.cpp.o
+.PHONY : src/render/CullingStrategy/ZoomAwareCullingStrategy.o
+
+# target to build an object file
+src/render/CullingStrategy/ZoomAwareCullingStrategy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/render/CullingStrategy/ZoomAwareCullingStrategy.cpp.o
+.PHONY : src/render/CullingStrategy/ZoomAwareCullingStrategy.cpp.o
+
+src/render/CullingStrategy/ZoomAwareCullingStrategy.i: src/render/CullingStrategy/ZoomAwareCullingStrategy.cpp.i
+.PHONY : src/render/CullingStrategy/ZoomAwareCullingStrategy.i
+
+# target to preprocess a source file
+src/render/CullingStrategy/ZoomAwareCullingStrategy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/render/CullingStrategy/ZoomAwareCullingStrategy.cpp.i
+.PHONY : src/render/CullingStrategy/ZoomAwareCullingStrategy.cpp.i
+
+src/render/CullingStrategy/ZoomAwareCullingStrategy.s: src/render/CullingStrategy/ZoomAwareCullingStrategy.cpp.s
+.PHONY : src/render/CullingStrategy/ZoomAwareCullingStrategy.s
+
+# target to generate assembly for a file
+src/render/CullingStrategy/ZoomAwareCullingStrategy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/render/CullingStrategy/ZoomAwareCullingStrategy.cpp.s
+.PHONY : src/render/CullingStrategy/ZoomAwareCullingStrategy.cpp.s
+
 src/render/LayeredRenderSystem.o: src/render/LayeredRenderSystem.cpp.o
 .PHONY : src/render/LayeredRenderSystem.o
 
@@ -420,6 +540,21 @@ help:
 	@echo "... src/render/Camera.o"
 	@echo "... src/render/Camera.i"
 	@echo "... src/render/Camera.s"
+	@echo "... src/render/CulledRenderSystem.o"
+	@echo "... src/render/CulledRenderSystem.i"
+	@echo "... src/render/CulledRenderSystem.s"
+	@echo "... src/render/CullingStrategy/ConservativeFrustumCulling.o"
+	@echo "... src/render/CullingStrategy/ConservativeFrustumCulling.i"
+	@echo "... src/render/CullingStrategy/ConservativeFrustumCulling.s"
+	@echo "... src/render/CullingStrategy/DistanceCullingStrategy.o"
+	@echo "... src/render/CullingStrategy/DistanceCullingStrategy.i"
+	@echo "... src/render/CullingStrategy/DistanceCullingStrategy.s"
+	@echo "... src/render/CullingStrategy/NoCullingStrategy.o"
+	@echo "... src/render/CullingStrategy/NoCullingStrategy.i"
+	@echo "... src/render/CullingStrategy/NoCullingStrategy.s"
+	@echo "... src/render/CullingStrategy/ZoomAwareCullingStrategy.o"
+	@echo "... src/render/CullingStrategy/ZoomAwareCullingStrategy.i"
+	@echo "... src/render/CullingStrategy/ZoomAwareCullingStrategy.s"
 	@echo "... src/render/LayeredRenderSystem.o"
 	@echo "... src/render/LayeredRenderSystem.i"
 	@echo "... src/render/LayeredRenderSystem.s"

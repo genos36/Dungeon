@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DPROJECT_NAME=\"Dungeon\"
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/esercitazioni/prove/Dungeon/include
 
 CXX_FLAGS = -O3 -DNDEBUG
 

@@ -11,6 +11,8 @@ add_executable(${PROJECT_NAME} ${PROJECT_SOURCES})
 # Sorgenti
 include(cmake/extra.cmake)
 # Proprietà progetto
+target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/include)
+
 target_compile_definitions(${PROJECT_NAME} PRIVATE
     PROJECT_NAME="${PROJECT_NAME}"
 )

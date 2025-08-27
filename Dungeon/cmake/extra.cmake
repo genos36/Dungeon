@@ -16,6 +16,11 @@ target_sources(${PROJECT_NAME} PRIVATE
     src/render/BatchRenderLayerSystem.cpp
     src/render/BatchRenderer.cpp
     src/render/Camera.cpp
+    src/render/CulledRenderSystem.cpp
+    src/render/CullingStrategy/ConservativeFrustumCulling.cpp
+    src/render/CullingStrategy/DistanceCullingStrategy.cpp
+    src/render/CullingStrategy/NoCullingStrategy.cpp
+    src/render/CullingStrategy/ZoomAwareCullingStrategy.cpp
     src/render/LayeredRenderSystem.cpp
     src/render/RenderComponent.cpp
     src/render/RenderSystem.cpp
@@ -31,6 +36,12 @@ target_sources(${PROJECT_NAME} PRIVATE
     include/render/BatchRenderLayerSystem.h
     include/render/BatchRenderer.h
     include/render/Camera.h
+    include/render/CulledRenderSystem.h
+    include/render/CullingStrategy/AbstractCullingStrategy.h
+    include/render/CullingStrategy/ConservativeFrustumCulling.h
+    include/render/CullingStrategy/DistanceCullingStrategy.h
+    include/render/CullingStrategy/NoCullingStrategy.h
+    include/render/CullingStrategy/ZoomAwareCullingStrategy.h
     include/render/LayeredRenderSystem.h
     include/render/RenderComponent.h
     include/render/RenderSystem.h

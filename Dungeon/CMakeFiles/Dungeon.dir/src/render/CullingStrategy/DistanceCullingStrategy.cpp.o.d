@@ -1,7 +1,9 @@
-CMakeFiles/Dungeon.dir/src/main.cpp.o: \
- /home/esercitazioni/prove/Dungeon/src/main.cpp \
+CMakeFiles/Dungeon.dir/src/render/CullingStrategy/DistanceCullingStrategy.cpp.o: \
+ /home/esercitazioni/prove/Dungeon/src/render/CullingStrategy/DistanceCullingStrategy.cpp \
  /usr/include/stdc-predef.h \
- /home/esercitazioni/prove/Dungeon/src/../include/render/RenderSystem.h \
+ /home/esercitazioni/prove/Dungeon/include/render/CullingStrategy/DistanceCullingStrategy.h \
+ /home/esercitazioni/prove/Dungeon/include/render/CullingStrategy/AbstractCullingStrategy.h \
+ /home/esercitazioni/prove/Dungeon/include/render/CullingStrategy/../BatchRenderLayerSystem.h \
  /usr/include/SFML/Graphics.hpp /usr/include/SFML/Window.hpp \
  /usr/include/SFML/System.hpp /usr/include/SFML/Config.hpp \
  /usr/include/SFML/System/Clock.hpp /usr/include/SFML/System/Export.hpp \
@@ -244,12 +246,8 @@ CMakeFiles/Dungeon.dir/src/main.cpp.o: \
  /usr/include/SFML/Graphics/Sprite.hpp \
  /usr/include/SFML/Graphics/Text.hpp \
  /usr/include/SFML/Graphics/VertexBuffer.hpp \
- /home/esercitazioni/prove/Dungeon/src/../include/render/TextureLoader.h \
- /usr/include/c++/13/unordered_map \
- /usr/include/c++/13/bits/unordered_map.h \
- /usr/include/c++/13/bits/hashtable.h \
- /usr/include/c++/13/bits/hashtable_policy.h \
- /usr/include/c++/13/bits/enable_special_members.h \
+ /home/esercitazioni/prove/Dungeon/include/render/CullingStrategy/../LayeredRenderSystem.h \
+ /home/esercitazioni/prove/Dungeon/include/render/CullingStrategy/../BatchRenderer.h \
  /usr/include/c++/13/memory \
  /usr/include/c++/13/bits/stl_raw_storage_iter.h \
  /usr/include/c++/13/bits/align.h /usr/include/c++/13/bits/unique_ptr.h \
@@ -262,13 +260,7 @@ CMakeFiles/Dungeon.dir/src/main.cpp.o: \
  /usr/include/c++/13/bits/atomic_lockfree_defines.h \
  /usr/include/c++/13/backward/auto_ptr.h \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
- /home/esercitazioni/prove/Dungeon/src/../include/render/TextureRegistry.h \
- /usr/include/c++/13/iostream /usr/include/c++/13/istream \
- /usr/include/c++/13/bits/istream.tcc \
- /home/esercitazioni/prove/Dungeon/src/../include/render/LayeredRenderSystem.h \
- /home/esercitazioni/prove/Dungeon/src/../include/render/AnimationSystem.h \
- /usr/include/c++/13/cstdint \
- /home/esercitazioni/prove/Dungeon/src/../include/render/Camera.h \
+ /home/esercitazioni/prove/Dungeon/include/render/CullingStrategy/../Camera.h \
  /usr/include/c++/13/random /usr/include/c++/13/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -291,24 +283,11 @@ CMakeFiles/Dungeon.dir/src/main.cpp.o: \
  /usr/include/c++/13/tr1/modified_bessel_func.tcc \
  /usr/include/c++/13/tr1/poly_hermite.tcc \
  /usr/include/c++/13/tr1/poly_laguerre.tcc \
- /usr/include/c++/13/tr1/riemann_zeta.tcc \
+ /usr/include/c++/13/tr1/riemann_zeta.tcc /usr/include/c++/13/cstdint \
  /usr/include/c++/13/bits/random.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/opt_random.h \
  /usr/include/c++/13/bits/random.tcc /usr/include/c++/13/numeric \
  /usr/include/c++/13/bits/stl_numeric.h \
  /usr/include/c++/13/pstl/glue_numeric_defs.h \
  /usr/include/c++/13/optional \
- /home/esercitazioni/prove/Dungeon/src/../include/render/RenderComponent.h \
- /home/esercitazioni/prove/Dungeon/src/../include/render/AnimationSystem.h \
- /home/esercitazioni/prove/Dungeon/src/../include/render/BatchRenderer.h \
- /home/esercitazioni/prove/Dungeon/src/../include/render/BatchRenderLayerSystem.h \
- /home/esercitazioni/prove/Dungeon/src/../include/render/BatchRenderer.h \
- /home/esercitazioni/prove/Dungeon/include/render/CulledRenderSystem.h \
- /home/esercitazioni/prove/Dungeon/include/render/BatchRenderLayerSystem.h \
- /home/esercitazioni/prove/Dungeon/include/render/CullingStrategy/AbstractCullingStrategy.h \
- /home/esercitazioni/prove/Dungeon/include/render/CullingStrategy/../BatchRenderLayerSystem.h \
- /home/esercitazioni/prove/Dungeon/include/render/CullingStrategy/ConservativeFrustumCulling.h \
- /home/esercitazioni/prove/Dungeon/include/render/CullingStrategy/AbstractCullingStrategy.h \
- /home/esercitazioni/prove/Dungeon/include/render/CullingStrategy/DistanceCullingStrategy.h \
- /home/esercitazioni/prove/Dungeon/include/render/CullingStrategy/ZoomAwareCullingStrategy.h \
- /home/esercitazioni/prove/Dungeon/include/render/CullingStrategy/NoCullingStrategy.h
+ /usr/include/c++/13/bits/enable_special_members.h
