@@ -20,6 +20,11 @@ Step 3.1: Sprite Batching
 Step 3.2: Render Culling
 -------------------------------
 Step 3.2: Texture Atlas Generation
+    Step 3.2.1 enhance Render component to add support for texture atlas
+    Step 3.2.2 implement Texture altlas
+    Step 3.2.3 implement Texture atlas loader
+    Step 3.2.4 implement texture atlas registry
+    Step 3.2.5 (still in review) add some system to combine single texture in a texture atlas , it's still to decide if create a dynamic texture atlas or adding a script to combine them once so it will require more configuration but will have a better run time performance  
 Step 3.4: Level of Detail (LOD)
 
 ## Phase 4: Advanced Features (Week 5-6)

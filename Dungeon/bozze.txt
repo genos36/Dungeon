@@ -1,0 +1,7 @@
+Option 1: Store Texture Reference (Recommended)
+Option 2: Store Atlas + Region Name (More Flexible)
+
+these were your reccomendation for the enhancement of RenderComponent.
+let me analyze them
+1)the use of a shared pointer is a simple solution, but when we unload a texture from the texture loader and we reload it,  doesn't  we end up with 2 copies of the texture, i'm not sure about this but when we reload the texture it will created another shared pointer that doesn't share the memory addres with the previous one, do you confirm ?
+2)more work but it mantain the principle of the singleton, by using the texture atlas name for the look up, so the only copy of the texture will be in the singleton deleting the risk of duplication, am I right ?

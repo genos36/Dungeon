@@ -6,22 +6,9 @@
 #include <iostream>
 #include <vector>
 #include <exception>
+#include "TextureLoaderStrategy/TextureType.h"
 
 
-
-//if a new element i added to this enum,
-//is also necessary to update the section marked with ON_UPDATE
-enum class TextureType{
-    // Tiles
-    TILE_GRASS=0,
-    TILE_WATER,
-    TILE_STONE,
-    TILE_ROCK,
-    TREE,
-
-
-    COUNT           //MUST BE LAST
-};
 
 class TextureRegistry{
 private:
