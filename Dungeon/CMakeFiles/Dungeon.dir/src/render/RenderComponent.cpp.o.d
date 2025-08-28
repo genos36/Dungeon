@@ -247,6 +247,7 @@ CMakeFiles/Dungeon.dir/src/render/RenderComponent.cpp.o: \
  /home/esercitazioni/prove/Dungeon/src/render/../../include/render/TextureRegistry.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
+ /home/esercitazioni/prove/Dungeon/src/render/../../include/render/TextureLoaderStrategy/TextureType.h \
  /home/esercitazioni/prove/Dungeon/src/render/../../include/render/TextureLoader.h \
  /usr/include/c++/13/unordered_map \
  /usr/include/c++/13/bits/unordered_map.h \

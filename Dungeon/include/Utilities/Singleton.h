@@ -1,17 +1,21 @@
 #ifndef SINGLETON_H
 #define SINGLETON_H
-#include <map>
 
+#include <map>
+#include <string>
+#include <stdexcept>
+//this texture loader support only subclassing into AbstractTextureLoader
+
+class AbstractTextureLoader;
 class Singleton{
     private:
         static Singleton* instance;
-        static std::map<const char*, Singleton*>registry;
+        static std::map<std::string, AbstractTextureLoader*>registry;
         protected:
-        virtual ~Singleton();
         Singleton()=default;
-        static Singleton* lookUp(const char* name);
+        static AbstractTextureLoader* lookUp(std::string name);
     public:
-        static void Register(const char* name,Singleton*);
+        static void Register(std::string name,AbstractTextureLoader*);
         static Singleton* getInstance();
 
 

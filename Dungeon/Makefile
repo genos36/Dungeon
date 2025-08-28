@@ -129,6 +129,30 @@ Dungeon/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/build
 .PHONY : Dungeon/fast
 
+src/Utilities/Singleton.o: src/Utilities/Singleton.cpp.o
+.PHONY : src/Utilities/Singleton.o
+
+# target to build an object file
+src/Utilities/Singleton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/Utilities/Singleton.cpp.o
+.PHONY : src/Utilities/Singleton.cpp.o
+
+src/Utilities/Singleton.i: src/Utilities/Singleton.cpp.i
+.PHONY : src/Utilities/Singleton.i
+
+# target to preprocess a source file
+src/Utilities/Singleton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/Utilities/Singleton.cpp.i
+.PHONY : src/Utilities/Singleton.cpp.i
+
+src/Utilities/Singleton.s: src/Utilities/Singleton.cpp.s
+.PHONY : src/Utilities/Singleton.s
+
+# target to generate assembly for a file
+src/Utilities/Singleton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/Utilities/Singleton.cpp.s
+.PHONY : src/Utilities/Singleton.cpp.s
+
 src/entities/Entity.o: src/entities/Entity.cpp.o
 .PHONY : src/entities/Entity.o
 
@@ -489,6 +513,54 @@ src/render/TextureLoader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/render/TextureLoader.cpp.s
 .PHONY : src/render/TextureLoader.cpp.s
 
+src/render/TextureLoaderStrategy/AbstractTextureLoader.o: src/render/TextureLoaderStrategy/AbstractTextureLoader.cpp.o
+.PHONY : src/render/TextureLoaderStrategy/AbstractTextureLoader.o
+
+# target to build an object file
+src/render/TextureLoaderStrategy/AbstractTextureLoader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/render/TextureLoaderStrategy/AbstractTextureLoader.cpp.o
+.PHONY : src/render/TextureLoaderStrategy/AbstractTextureLoader.cpp.o
+
+src/render/TextureLoaderStrategy/AbstractTextureLoader.i: src/render/TextureLoaderStrategy/AbstractTextureLoader.cpp.i
+.PHONY : src/render/TextureLoaderStrategy/AbstractTextureLoader.i
+
+# target to preprocess a source file
+src/render/TextureLoaderStrategy/AbstractTextureLoader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/render/TextureLoaderStrategy/AbstractTextureLoader.cpp.i
+.PHONY : src/render/TextureLoaderStrategy/AbstractTextureLoader.cpp.i
+
+src/render/TextureLoaderStrategy/AbstractTextureLoader.s: src/render/TextureLoaderStrategy/AbstractTextureLoader.cpp.s
+.PHONY : src/render/TextureLoaderStrategy/AbstractTextureLoader.s
+
+# target to generate assembly for a file
+src/render/TextureLoaderStrategy/AbstractTextureLoader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/render/TextureLoaderStrategy/AbstractTextureLoader.cpp.s
+.PHONY : src/render/TextureLoaderStrategy/AbstractTextureLoader.cpp.s
+
+src/render/TextureLoaderStrategy/SingleTextureLoader.o: src/render/TextureLoaderStrategy/SingleTextureLoader.cpp.o
+.PHONY : src/render/TextureLoaderStrategy/SingleTextureLoader.o
+
+# target to build an object file
+src/render/TextureLoaderStrategy/SingleTextureLoader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/render/TextureLoaderStrategy/SingleTextureLoader.cpp.o
+.PHONY : src/render/TextureLoaderStrategy/SingleTextureLoader.cpp.o
+
+src/render/TextureLoaderStrategy/SingleTextureLoader.i: src/render/TextureLoaderStrategy/SingleTextureLoader.cpp.i
+.PHONY : src/render/TextureLoaderStrategy/SingleTextureLoader.i
+
+# target to preprocess a source file
+src/render/TextureLoaderStrategy/SingleTextureLoader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/render/TextureLoaderStrategy/SingleTextureLoader.cpp.i
+.PHONY : src/render/TextureLoaderStrategy/SingleTextureLoader.cpp.i
+
+src/render/TextureLoaderStrategy/SingleTextureLoader.s: src/render/TextureLoaderStrategy/SingleTextureLoader.cpp.s
+.PHONY : src/render/TextureLoaderStrategy/SingleTextureLoader.s
+
+# target to generate assembly for a file
+src/render/TextureLoaderStrategy/SingleTextureLoader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/render/TextureLoaderStrategy/SingleTextureLoader.cpp.s
+.PHONY : src/render/TextureLoaderStrategy/SingleTextureLoader.cpp.s
+
 src/render/TextureRegistry.o: src/render/TextureRegistry.cpp.o
 .PHONY : src/render/TextureRegistry.o
 
@@ -522,6 +594,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Dungeon"
+	@echo "... src/Utilities/Singleton.o"
+	@echo "... src/Utilities/Singleton.i"
+	@echo "... src/Utilities/Singleton.s"
 	@echo "... src/entities/Entity.o"
 	@echo "... src/entities/Entity.i"
 	@echo "... src/entities/Entity.s"
@@ -567,6 +642,12 @@ help:
 	@echo "... src/render/TextureLoader.o"
 	@echo "... src/render/TextureLoader.i"
 	@echo "... src/render/TextureLoader.s"
+	@echo "... src/render/TextureLoaderStrategy/AbstractTextureLoader.o"
+	@echo "... src/render/TextureLoaderStrategy/AbstractTextureLoader.i"
+	@echo "... src/render/TextureLoaderStrategy/AbstractTextureLoader.s"
+	@echo "... src/render/TextureLoaderStrategy/SingleTextureLoader.o"
+	@echo "... src/render/TextureLoaderStrategy/SingleTextureLoader.i"
+	@echo "... src/render/TextureLoaderStrategy/SingleTextureLoader.s"
 	@echo "... src/render/TextureRegistry.o"
 	@echo "... src/render/TextureRegistry.i"
 	@echo "... src/render/TextureRegistry.s"

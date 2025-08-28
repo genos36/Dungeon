@@ -1,15 +1,17 @@
 #include "render/TextureLoaderStrategy/SingleTextureLoader.h"
 #include "render/TextureRegistry.h"
 
-SingleTextureLoader::SingleTextureLoader(){
-}
+
+const std::string SingleTextureLoader::NAME("SingleTextureLoader");
+
 
 
 AbstractTextureLoader* SingleTextureLoader::getInstance(){
     if(Singleton::lookUp(NAME)==nullptr){
-        Singleton::Register(NAME,new SingleTextureLoader());
+        static SingleTextureLoader instance;
+        Singleton::Register(NAME,&instance);
     }
-    return dynamic_cast<AbstractTextureLoader*>(Singleton::lookUp(NAME)) ;
+    return Singleton::lookUp(NAME) ;
 }
 
 
@@ -62,3 +64,12 @@ AbstractTextureLoader* SingleTextureLoader::getInstance(){
         textures.erase(filePath);
     }
     
+    bool SingleTextureLoader::hasTexture(TextureType type) const {
+        try{
+            textures.at(TextureRegistry::getTexturePath(type));
+            return true;
+        }
+        catch(std::out_of_range){
+            return false;
+        }
+    }

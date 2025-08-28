@@ -263,4 +263,5 @@ CMakeFiles/Dungeon.dir/src/render/TextureLoader.cpp.o: \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
  /home/esercitazioni/prove/Dungeon/src/render/../../include/render/TextureRegistry.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/istream \
- /usr/include/c++/13/bits/istream.tcc
+ /usr/include/c++/13/bits/istream.tcc \
+ /home/esercitazioni/prove/Dungeon/src/render/../../include/render/TextureLoaderStrategy/TextureType.h

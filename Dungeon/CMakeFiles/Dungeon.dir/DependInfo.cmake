@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/esercitazioni/prove/Dungeon/src/Utilities/Singleton.cpp" "CMakeFiles/Dungeon.dir/src/Utilities/Singleton.cpp.o" "gcc" "CMakeFiles/Dungeon.dir/src/Utilities/Singleton.cpp.o.d"
   "/home/esercitazioni/prove/Dungeon/src/entities/Entity.cpp" "CMakeFiles/Dungeon.dir/src/entities/Entity.cpp.o" "gcc" "CMakeFiles/Dungeon.dir/src/entities/Entity.cpp.o.d"
   "/home/esercitazioni/prove/Dungeon/src/main.cpp" "CMakeFiles/Dungeon.dir/src/main.cpp.o" "gcc" "CMakeFiles/Dungeon.dir/src/main.cpp.o.d"
   "/home/esercitazioni/prove/Dungeon/src/render/AnimationSystem.cpp" "CMakeFiles/Dungeon.dir/src/render/AnimationSystem.cpp.o" "gcc" "CMakeFiles/Dungeon.dir/src/render/AnimationSystem.cpp.o.d"
@@ -23,6 +24,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/esercitazioni/prove/Dungeon/src/render/RenderComponent.cpp" "CMakeFiles/Dungeon.dir/src/render/RenderComponent.cpp.o" "gcc" "CMakeFiles/Dungeon.dir/src/render/RenderComponent.cpp.o.d"
   "/home/esercitazioni/prove/Dungeon/src/render/RenderSystem.cpp" "CMakeFiles/Dungeon.dir/src/render/RenderSystem.cpp.o" "gcc" "CMakeFiles/Dungeon.dir/src/render/RenderSystem.cpp.o.d"
   "/home/esercitazioni/prove/Dungeon/src/render/TextureLoader.cpp" "CMakeFiles/Dungeon.dir/src/render/TextureLoader.cpp.o" "gcc" "CMakeFiles/Dungeon.dir/src/render/TextureLoader.cpp.o.d"
+  "/home/esercitazioni/prove/Dungeon/src/render/TextureLoaderStrategy/AbstractTextureLoader.cpp" "CMakeFiles/Dungeon.dir/src/render/TextureLoaderStrategy/AbstractTextureLoader.cpp.o" "gcc" "CMakeFiles/Dungeon.dir/src/render/TextureLoaderStrategy/AbstractTextureLoader.cpp.o.d"
+  "/home/esercitazioni/prove/Dungeon/src/render/TextureLoaderStrategy/SingleTextureLoader.cpp" "CMakeFiles/Dungeon.dir/src/render/TextureLoaderStrategy/SingleTextureLoader.cpp.o" "gcc" "CMakeFiles/Dungeon.dir/src/render/TextureLoaderStrategy/SingleTextureLoader.cpp.o.d"
   "/home/esercitazioni/prove/Dungeon/src/render/TextureRegistry.cpp" "CMakeFiles/Dungeon.dir/src/render/TextureRegistry.cpp.o" "gcc" "CMakeFiles/Dungeon.dir/src/render/TextureRegistry.cpp.o.d"
   )
 

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Dungeon.dir/src/Utilities/Singleton.cpp.o"
+  "CMakeFiles/Dungeon.dir/src/Utilities/Singleton.cpp.o.d"
   "CMakeFiles/Dungeon.dir/src/entities/Entity.cpp.o"
   "CMakeFiles/Dungeon.dir/src/entities/Entity.cpp.o.d"
   "CMakeFiles/Dungeon.dir/src/main.cpp.o"
@@ -29,6 +31,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/Dungeon.dir/src/render/RenderSystem.cpp.o.d"
   "CMakeFiles/Dungeon.dir/src/render/TextureLoader.cpp.o"
   "CMakeFiles/Dungeon.dir/src/render/TextureLoader.cpp.o.d"
+  "CMakeFiles/Dungeon.dir/src/render/TextureLoaderStrategy/AbstractTextureLoader.cpp.o"
+  "CMakeFiles/Dungeon.dir/src/render/TextureLoaderStrategy/AbstractTextureLoader.cpp.o.d"
+  "CMakeFiles/Dungeon.dir/src/render/TextureLoaderStrategy/SingleTextureLoader.cpp.o"
+  "CMakeFiles/Dungeon.dir/src/render/TextureLoaderStrategy/SingleTextureLoader.cpp.o.d"
   "CMakeFiles/Dungeon.dir/src/render/TextureRegistry.cpp.o"
   "CMakeFiles/Dungeon.dir/src/render/TextureRegistry.cpp.o.d"
   "Dungeon"

@@ -12,11 +12,11 @@ class SingleTextureLoader:public AbstractTextureLoader{
     std::unordered_map<std::string, std::shared_ptr<sf::Texture>> textures;  
 
     protected:
-    SingleTextureLoader();
+    SingleTextureLoader()=default;
 
     public:
-    static constexpr char* NAME="SingleTextureLoader";
-    virtual ~SingleTextureLoader()=default;
+    static const std::string NAME;
+
 
     static AbstractTextureLoader* getInstance();
     

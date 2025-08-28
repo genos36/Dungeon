@@ -10,6 +10,7 @@
 
 ### INIZIO AREA AUTOMATICA ###
 target_sources(${PROJECT_NAME} PRIVATE
+    src/Utilities/Singleton.cpp
     src/entities/Entity.cpp
     src/main.cpp
     src/render/AnimationSystem.cpp
@@ -25,8 +26,11 @@ target_sources(${PROJECT_NAME} PRIVATE
     src/render/RenderComponent.cpp
     src/render/RenderSystem.cpp
     src/render/TextureLoader.cpp
+    src/render/TextureLoaderStrategy/AbstractTextureLoader.cpp
+    src/render/TextureLoaderStrategy/SingleTextureLoader.cpp
     src/render/TextureRegistry.cpp
     include/Game.h
+    include/Utilities/Singleton.h
     include/communication/AbstactCommunicationService.h
     include/entities/Contoller.h
     include/entities/Entity.h
@@ -46,6 +50,9 @@ target_sources(${PROJECT_NAME} PRIVATE
     include/render/RenderComponent.h
     include/render/RenderSystem.h
     include/render/TextureLoader.h
+    include/render/TextureLoaderStrategy/AbstractTextureLoader.h
+    include/render/TextureLoaderStrategy/SingleTextureLoader.h
+    include/render/TextureLoaderStrategy/TextureType.h
     include/render/TextureRegistry.h
     include/weapons/Weapon.h
 )

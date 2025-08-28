@@ -1,29 +1,28 @@
 #include "Utilities/Singleton.h"
-
+// #include "Render/TextureLoaderStrategy/AbstractTextureLoader.h"
 
 Singleton* Singleton::instance=nullptr;
+std::map<std::string, AbstractTextureLoader*> Singleton::registry;
 
-Singleton* Singleton::lookUp(const char* name){
-    if(registry.at(name)==0)return nullptr;
+AbstractTextureLoader* Singleton::lookUp(std::string name){
+    // if(registry.at(name)==0)return nullptr;
 
-    return registry[name];
-
+    // return registry[name];
+    try{
+        registry.at(name);
+        return registry[name];
+    }
+    catch(std::out_of_range){
+        return nullptr;
+    }
 }
 
-void Singleton::Register(const char* name,Singleton* subclassInstance){
+void Singleton::Register(std::string name,AbstractTextureLoader* subclassInstance){
     if(instance==nullptr)getInstance();
     registry[name]=subclassInstance;
 }
 
 Singleton* Singleton::getInstance(){
-    if(instance==nullptr){
-        instance=new Singleton();
-        Register("Singleton",instance);
-    }
-    return instance;
-}
-
-Singleton::~Singleton(){
-    delete instance;
-    instance=nullptr;
+    static Singleton instance=Singleton();
+    return &instance;
 }
