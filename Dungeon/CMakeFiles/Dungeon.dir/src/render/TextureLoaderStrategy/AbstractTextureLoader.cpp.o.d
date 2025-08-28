@@ -258,4 +258,4 @@ CMakeFiles/Dungeon.dir/src/render/TextureLoaderStrategy/AbstractTextureLoader.cp
  /usr/include/SFML/Graphics/Text.hpp \
  /usr/include/SFML/Graphics/VertexBuffer.hpp \
  /home/esercitazioni/prove/Dungeon/include/render/TextureLoaderStrategy/TextureType.h \
- /home/esercitazioni/prove/Dungeon/include/Utilities/Singleton.h
+ /home/esercitazioni/prove/Dungeon/include/render/TextureLoaderStrategy/Singleton.h

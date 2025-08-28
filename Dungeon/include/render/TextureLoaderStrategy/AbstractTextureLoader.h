@@ -5,7 +5,7 @@
 #include <SFML/Graphics.hpp>
 #include "TextureType.h"
 #include <map>
-#include "Utilities/Singleton.h"
+#include "Singleton.h"
 
 
 class AbstractTextureLoader:public Singleton{

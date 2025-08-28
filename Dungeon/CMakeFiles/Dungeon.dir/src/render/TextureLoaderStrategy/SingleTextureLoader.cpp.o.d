@@ -259,7 +259,7 @@ CMakeFiles/Dungeon.dir/src/render/TextureLoaderStrategy/SingleTextureLoader.cpp.
  /usr/include/SFML/Graphics/Text.hpp \
  /usr/include/SFML/Graphics/VertexBuffer.hpp \
  /home/esercitazioni/prove/Dungeon/include/render/TextureLoaderStrategy/TextureType.h \
- /home/esercitazioni/prove/Dungeon/include/Utilities/Singleton.h \
+ /home/esercitazioni/prove/Dungeon/include/render/TextureLoaderStrategy/Singleton.h \
  /usr/include/c++/13/unordered_map \
  /usr/include/c++/13/bits/unordered_map.h \
  /usr/include/c++/13/bits/hashtable.h \

@@ -1,4 +1,5 @@
-#include "Utilities/Singleton.h"
+#include "render/TextureLoaderStrategy/Singleton.h"
+
 // #include "Render/TextureLoaderStrategy/AbstractTextureLoader.h"
 
 Singleton* Singleton::instance=nullptr;
