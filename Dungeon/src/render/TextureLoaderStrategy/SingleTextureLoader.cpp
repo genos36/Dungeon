@@ -7,11 +7,12 @@ const std::string SingleTextureLoader::NAME("SingleTextureLoader");
 
 
 AbstractTextureLoader* SingleTextureLoader::getInstance(){
-    if(Singleton::lookUp(NAME)==nullptr){
+    auto ptr=AbstractTextureLoader::lookUp(NAME);
+    if(ptr==nullptr){
         static SingleTextureLoader instance;
-        Singleton::Register(NAME,&instance);
+        AbstractTextureLoader::Register(NAME,&instance);
     }
-    return Singleton::lookUp(NAME) ;
+    return ptr ;
 }
 
 

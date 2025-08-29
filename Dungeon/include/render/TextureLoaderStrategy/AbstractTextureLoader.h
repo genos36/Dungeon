@@ -8,8 +8,17 @@
 #include "Singleton.h"
 
 
-class AbstractTextureLoader:public Singleton{
+class AbstractTextureLoader{
+private:
+
+    static std::map<std::string, AbstractTextureLoader*>& getRegistry();
+
+protected:
+    static AbstractTextureLoader* lookUp(std::string name);
+    AbstractTextureLoader()=default;
 public:
+    static void Register(std::string name,AbstractTextureLoader*);
+
     virtual ~AbstractTextureLoader()=default;
 //strategy pattern methods
     // Load texture with error handling
